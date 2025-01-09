@@ -1,4 +1,3 @@
-
 const containerDiv = document.querySelector("#container");
 
 const makeRow = () => {
@@ -8,9 +7,11 @@ const makeRow = () => {
     for (let i = 0; i < 16; i++) {
         const div = document.createElement("div");
         div.classList.add("drawBox");
+        div.addEventListener("mouseenter", () => {
+            div.style.backgroundColor = "black"
+        });
         rowDiv.appendChild(div);
     }
-
     return rowDiv;
 };
 

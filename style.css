@@ -3,8 +3,6 @@ body {
 }
 
 #container {
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
   gap: 5px;
   background-color: blue;
@@ -19,7 +17,10 @@ body {
   height: 20px;
 }
 
+
 .divRow {
+  justify-content: center;
+  align-items: center;
   display: flex;
   gap: 5px;
 }
