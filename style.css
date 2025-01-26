@@ -3,13 +3,16 @@ body {
 }
 
 #container {
+  position: relative;
   flex-direction: column;
   gap: 5px;
   background-color: blue;
+  margin-top: 60px;
+  padding: 10px;
 }
 
 .drawBox {
-  background-color: yellow;
+  background-color: white;
   border-style: solid;
   border-color: brown;
   border-width: 1px;
@@ -17,10 +20,19 @@ body {
   height: 20px;
 }
 
-
 .divRow {
   justify-content: center;
   align-items: center;
   display: flex;
   gap: 5px;
 }
+
+.addOnHolder {
+  align-items: center;
+  background-color: aquamarine;
+}
+
+.resetButton {
+  
+}
+
