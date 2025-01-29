@@ -41,7 +41,6 @@ resetButton.addEventListener("click", () => {
 submitButton.addEventListener("click", () => {
     number1 = parseInt(input1.value);
     number2 = parseInt(input2.value);
-
     if (isNaN(number1) || isNaN(number2) || number1 <= 0 || number2 <= 0) {
         alert("Please enter valid positive numbers for both dimensions.");
         return;
